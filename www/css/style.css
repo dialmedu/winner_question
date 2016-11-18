@@ -1,0 +1,75 @@
+/* Empty. Add your own CSS if you like */
+ion-view.pane {
+    background-image: url('../img/hero.png');
+   	background-size: cover;
+   	background-position: center;
+}
+
+button.button-block {
+    opacity: .9;
+}
+
+div#responde-button-bar1 {
+    position: relative;
+    top: -20px;
+    width: 110%;
+    left: -5%;
+    margin-bottom: -20px;
+}
+
+[nav-bar-transition="android"] [nav-bar="active"] .bar, [nav-bar-transition="android"] [nav-bar="entering"] .bar {
+     background-color:rgb(28, 58, 113) !important;
+}
+
+.item-avatar {
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 10px -10px #000;
+}
+
+.tabs-striped.tabs-stable .tabs {
+    background-color: rgb(28, 58, 113);
+    height: 55px;
+}
+
+.tabs-icon-top > .tabs .tab-item {
+    color: white;
+    background: rgb(28, 58, 113);
+    position: relative;
+    top: -5px;
+    padding-top: 10px;
+}
+
+.tabs-top.tabs-striped .tab-item.tab-item-active {
+    background: #F44336;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    top: 0px;
+}
+
+.button-stable {
+    background: #ffffff !important;
+    color: #1c3a71 !important;
+}
+
+button#comunidad-button10 {
+    border-color: white;
+    color: white;
+}
+
+.item-thumbnail-left {
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 10px -10px #000;
+}
+
+.responde-card {
+    margin-bottom: 2rem;
+    background: white;
+    box-shadow: 0px 12px 10px -10px #06081b;
+}
+
+img#opps-logo {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
